@@ -188,7 +188,8 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;        
-        font-size: 30px;
+        margin-top: 10px;
+        font-size: 29px;
         font-weight: 100;
     }
     .sub-headlines {
