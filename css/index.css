@@ -4,9 +4,10 @@
     outline: 0;
     font-family: "Poppins";
 }
-body{
+.container{
     padding: 50px;
 }
+
 .logo {
     width: 100px;
 }
@@ -17,7 +18,7 @@ body{
     column-gap: 100px;
     margin-top: -70px;
     font-size: 23px;
-}
+} 
 
 .actions {
     display: flex;
@@ -61,12 +62,7 @@ p {
     margin-left: 20px;
     margin-right: 700px;
 }
-/* .right-section .headphone-div > img {
-    display: flex;
-    margin-left: 500px;
-    margin-top: -550px;
-    height: 600px;
-} */
+
 .headphone {
     position: absolute;
     margin-left: 850px;
@@ -80,7 +76,6 @@ p {
     margin-left: 810px;
     margin-top: -300px;
     width: 150px;
-    /* box-shadow: 0px 0px 5px 1px ; */
 }
 .headphone-div > div {
    position: absolute ;
@@ -147,4 +142,159 @@ p {
     color: #ffffff;
     font-size: 20px;
     font-family: "Poppins";
+}
+
+@media screen and (max-width : 900px )
+{body 
+    .container{
+        padding: 20px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 80px;
+        margin: auto;
+        margin-bottom: 40px;
+
+    }
+    
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
+        margin-top: -40px;
+        font-size: 20px;
+    } 
+    
+    .actions {
+        display: flex;        
+        margin: auto;
+        margin-left: -20px;
+       
+    }  
+    .left-section h3 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .left-section h3 > img {
+        width: 30px;
+    }
+    .left-section h1 {
+        font-family: "Fredoka one";
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .sub-headlines {
+        display: flex;  
+        margin-left: 10px;     
+        margin-top: 50px;
+        flex-direction: column; 
+        align-items: left;
+        
+    }
+    .sub-headlines h5 {
+        font-size: 20px;     
+    }
+
+    .sub-headline > img {
+        padding: 5px;
+        width: 14px ;
+        background-color: #FE5E35;
+        border-radius: 20px;
+    }
+    
+    p {
+        font-weight: 100;
+        font-size: 13px;
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .action-btns button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        background-color: #FE5E35;
+        border-radius: 50px;
+        margin-left: 70px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Poppins";
+    }
+    .headphone {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 100px;
+        margin-bottom: 400px;
+        width: 300px;
+        z-index: -1;
+    }
+    .discount {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 100px;
+        width: 100px;
+    }
+    .headphone-div > div {
+       position: absolute ;
+       color: #ffffff;
+       margin-left: 30px;
+       margin-top: 110px;
+       margin-right: 0px;
+       z-index: 3;
+       line-height: 1px;
+    }
+    .headphone-div > div h4 {
+        font-family: "Fredoka one";
+        font-weight: 20;
+        font-size: 11px;
+        margin-left:13px ;
+        margin-top: 25px;
+    }
+    .headphone-div > div h1 {
+        font-family: "Fredoka one";
+        font-size: 30px;
+        margin-left: 10px;
+    }
+ 
+    .right-section .dots {
+        display: flex;
+        padding: 40px;
+        width: 150px;
+        margin-left: 50px;
+    }
+    .dotyellow-dot{
+        width: 30px;
+        height: 30px;
+        background-color: #FBD104;
+        border-radius: 50%;
+    }
+    .dottomato-dot{
+        width: 30px;
+        height: 30px;
+        background-color: #FE5E35;
+        border-radius: 50%;
+    }
+    .dotblack-dot{
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .action-btn{
+        margin-left: 70px;
+        margin-top: 300px;
+        padding: 10px 30px;
+        background-color: #FE5E35;
+        border-radius: 50px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Poppins";
+    }
 }
